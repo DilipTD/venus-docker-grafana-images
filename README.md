@@ -1,5 +1,5 @@
 # venus-docker-grafana-images
-See https://github.com/victronenergy/venus-docker-grafana for usage and a lot of other information.
+See https://github.com/DilipTD/venus-docker-grafana for usage and a lot of other information.
 
 This repo has two docker images:
 
@@ -11,7 +11,7 @@ This repo has two docker images:
 The entry point for docker is in `/server/docker/Dockerfile`, which first installs the
 venus-docker-grafana-server, a nodejs package, by downloading it from www.npmjs.com (!).
 
-Thereafter it starts it, by starting [venus-server](https://github.com/victronenergy/venus-docker-grafana-images/blob/master/server/bin/venus-server).
+Thereafter it starts it, by starting [venus-server](https://github.com/DilipTD/venus-docker-grafana-images/blob/master/server/bin/venus-server).
 
 To learn more, read there.
 
@@ -22,7 +22,7 @@ Functions of the Server
 
 ## Some info to help trouble shooting
 
-The log of [venus-server](https://github.com/victronenergy/venus-docker-grafana-images/blob/master/server/bin/venus-server)
+The log of [venus-server](https://github.com/DilipTD/venus-docker-grafana-images/blob/master/server/bin/venus-server)
 looks like this when its running ok:
 ```
 [info] [influxdb] Attempting connection to v-7c242b35567af6a044fcaae432a98bb7f25cdf68-influxdb:8086/venus
